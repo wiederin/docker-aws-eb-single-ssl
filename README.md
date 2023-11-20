@@ -9,7 +9,7 @@ Template for a docker container to be deployed on an AWS Elastic Beanstalk Singl
 
 ### deploy
 1. Commit latest changes (`git add .` + `git commit -m "message"`)
-2. Zip directory (`git archive -o ../eb.zip HEAD`)
+2. Zip directory including .ebextensions and .platform directories (`git archive -o ../eb.zip HEAD`)
 
 ## todo
 1. setup.sh to config ssl certificates
