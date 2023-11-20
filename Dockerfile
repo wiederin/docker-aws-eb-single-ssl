@@ -1,3 +1,4 @@
+# build image or pull image
 FROM <IMAGE_URL>
 
 # assumes server is running on port 8000

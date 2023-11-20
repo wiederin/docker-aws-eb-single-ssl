@@ -8,8 +8,7 @@ Template for a docker container to be deployed on an AWS Elastic Beanstalk Singl
 2. Modify the SSL certificates in .ebextensions/https-instance.config
 
 ### deploy
-1. Commit latest changes (`git add .` + `git commit -m "message"`)
-2. Zip directory including .ebextensions and .platform directories (`git archive -o ../eb.zip HEAD`)
+1. Commit latest changes & zip directory including .ebextensions and .platform directories (`git archive -o ../eb.zip HEAD`)
 
 ## todo
 1. setup.sh to config ssl certificates
