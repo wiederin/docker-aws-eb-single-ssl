@@ -16,3 +16,4 @@ Template for a docker container to be deployed on an AWS Elastic Beanstalk Singl
 2. setup.sh to specify image to pull
 3. setup.sh to specify Dockerfile from Template
 4. build with compose
+5. ci pipeline (build image + deploy to server)
